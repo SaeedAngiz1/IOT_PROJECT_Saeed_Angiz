@@ -29,7 +29,7 @@ class Device:
         self.status = 'on'
         
         if self.device_type == 'camera':
-            print(f"📹 Camera {self.device_name} started with code {self.camera_code} - Recording active")
+            print(f" Camera {self.device_name} started with code {self.camera_code} - Recording active")
         elif self.device_type == 'lights':
             print(f" Light {self.device_name} is now ON - Illumination active")
         elif self.device_type == 'doors':
@@ -146,4 +146,5 @@ print(f"Total devices tested: {total_devices}")
 print(f"Device types tested: Lights, Doors, Cameras")
 print(f"Operations tested: Setup, Turn On, Turn Off, Status Check")
 print(f"All devices functioning:  PASS")
+
 print("\n Device testing phase complete! ")
