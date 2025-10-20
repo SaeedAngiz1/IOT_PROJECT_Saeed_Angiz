@@ -29,7 +29,7 @@ class Device:
         self.status = 'on'
         
         if self.device_type == 'camera':
-            print(f"📹 Camera {self.device_name} started with code {self.camera_code} - Recording active")
+            print(f"Camera {self.device_name} started with code {self.camera_code} - Recording active")
         elif self.device_type == 'lights':
             print(f" Light {self.device_name} is now ON - Illumination active")
         elif self.device_type == 'doors':
